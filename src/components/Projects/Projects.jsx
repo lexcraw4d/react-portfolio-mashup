@@ -1,6 +1,7 @@
 import React from 'react'
 import localHeroes from '../../Assets/localheros2.jpeg'
 import gameinator from '../../Assets/gameinator.jpeg'
+import scout from '../../Assets/scout.jpeg'
 import { Card, Button } from 'react-bootstrap'
 
 const Projects = () => {
@@ -28,6 +29,18 @@ const Projects = () => {
           Not sure what to play next?!? Rest at ease and let Gamintor make your next video game choice! Just enter in the required fields and viola! all your game recommendations are returned. Along with your game is a YouTube video tutorial or information about the game. Can't pick between the two? Quickly add to your favorites and we'll do the rest. Now, go get your game on!
           </Card.Text>
           <Button variant="primary" href="https://lexcraw4d.github.io/Gaminator/">Try Gaminator Here!</Button>
+        </Card.Body>
+      </Card>
+      </div>
+      <div>
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={scout} />
+        <Card.Body>
+          <Card.Title>Git Fetch</Card.Title>
+          <Card.Text>
+              <h5>More to come...</h5>
+          Scout says hey! She also promises, more to come! Hmmm... this is starting to sound a lot like the real git fetch, forreal.          </Card.Text>
+          <Button variant="primary" href="https://lexcraw4d.github.io">Checkout my other portfolio here!</Button>
         </Card.Body>
       </Card>
       </div>
